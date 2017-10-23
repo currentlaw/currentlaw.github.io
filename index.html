@@ -5,7 +5,48 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
 </style><link type="text/css" rel="stylesheet" href="./assets/css"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
 </style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
-</style><style>.jquery-ripples { position: relative; z-index: 0; }</style>
+</style><style>.jquery-ripples { position: relative; z-index: 0; }
+
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+* {
+  box-sizing: border-box;
+}
+body, figure { 
+  margin: 0; background: #101010;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery { 
+  width: 100%; overflow: hidden; 
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+}
+
+</style>
 	<!-- Meta Data -->
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -231,7 +272,7 @@
 					<!-- SLIDE  -->
 					<li data-index="rs-10" data-transition="parallaxtobottom" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="media/banner/1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli" style="width: 100%; height: 100%; overflow: hidden; z-index: 18; visibility: hidden; opacity: 0; background-color: rgba(255, 255, 255, 0);">
 						<!-- MAIN IMAGE -->
-						<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px); visibility: inherit; opacity: 1;"><img src="media/banner/2.jpg" alt="" data-lazyload="media/banner/2.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="8" class="rev-slidebg defaultimg" data-no-retina=""><div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;media/banner/2.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0; visibility: hidden; z-index: 20;" src="media/banner/2.jpg"></div></div>
+						<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px); visibility: inherit; opacity: 1;"><img src="media/banner/1.jpg" alt="" data-lazyload="media/banner/1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="8" class="rev-slidebg defaultimg" data-no-retina=""><div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;media/banner/1.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 0; visibility: hidden; z-index: 20;" src="media/banner/1.jpg"></div></div>
 						<!-- LAYERS -->
 
 						<!-- LAYER NR. 5 -->
@@ -249,7 +290,7 @@
 					<!-- SLIDE  -->
 					<li data-index="rs-11" data-transition="parallaxtobottom" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="media/banner/1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="" class="tp-revslider-slidesli active-revslide" style="width: 100%; height: 100%; overflow: hidden; z-index: 20; visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
 						<!-- MAIN IMAGE -->
-						<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px); visibility: inherit; opacity: 1;"><img src="media/banner/3.jpg" alt="" data-lazyload="media/banner/3.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="8" class="rev-slidebg defaultimg" data-no-retina=""><div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;media/banner/3.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="media/banner/3.jpg"></div></div>
+						<div class="slotholder" style="position: absolute; top: 0px; left: 0px; z-index: 0; width: 100%; height: 100%; backface-visibility: hidden; transform: translate3d(0px, 0px, 0px); visibility: inherit; opacity: 1;"><img src="media/banner/1.jpg" alt="" data-lazyload="media/banner/1.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="8" class="rev-slidebg defaultimg" data-no-retina=""><div class="tp-bgimg defaultimg " data-bgcolor="undefined" style="background-repeat: no-repeat; background-image: url(&quot;media/banner/1.jpg&quot;); background-size: cover; background-position: center center; width: 100%; height: 100%; opacity: 1; visibility: inherit; z-index: 20;" src="media/banner/1.jpg"></div></div>
 						<!-- LAYERS -->
 
 						<!-- LAYER NR. 9 -->
@@ -276,7 +317,7 @@
 
 				</div>
 
-			<div class="tp-loader off" style="display: none;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="tp-leftarrow tparrows uranus" style="top: 50%; transform: matrix(1, 0, 0, 1, 20, -20); left: 0px; visibility: hidden; opacity: 0;"></div><div class="tp-rightarrow tparrows uranus" style="top: 50%; transform: matrix(1, 0, 0, 1, -60, -20); left: 100%; visibility: hidden; opacity: 0;"></div><div class="tp-bullets hermes horizontal nav-pos-hor-center nav-pos-ver-bottom nav-dir-horizontal" style="width: 65px; height: 15px; top: 100%; transform: matrix(1, 0, 0, 1, -32, -55); left: 50%;"><div class="tp-bullet" style="left: 0px; top: 0px;"></div><div class="tp-bullet" style="left: 25px; top: 0px;"></div><div class="tp-bullet selected" style="left: 50px; top: 0px;"></div></div></div>
+			<div class="tp-loader off" style="display: none;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div><div class="tp-leftarrow tparrows uranus" style="top: 50%; transform: matrix(1, 0, 0, 1, 20, -20); left: 0px; visibility: hidden; opacity: 0;"></div><div class="tp-rightarrow tparrows uranus" style="top: 50%; transform: matrix(1, 0, 0, 1, -60, -20); left: 100%; visibility: hidden; opacity: 0;"></div><div class="tp-bullets hermes horizontal nav-pos-hor-center nav-pos-ver-bottom nav-dir-horizontal" style="width: 65px; height: 15px; top: 100%; transform: matrix(1, 0, 0, 1, -32, -55); left: 50%;"><!-- <div class="tp-bullet" style="left: 0px; top: 0px;"></div> --><!-- <div class="tp-bullet" style="left: 25px; top: 0px;"></div><div class="tp-bullet selected" style="left: 50px; top: 0px;"></div> --></div></div>
 			<!-- END REVOLUTION SLIDER -->
 		</div><div class="tp-fullwidth-forcer" style="width: 100%; height: 658px;"></div></div>
 
@@ -287,7 +328,7 @@
 			<div class="container">
 				<div class="section-title text-center wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1000ms; animation-delay: 0.3s; animation-name: fadeIn;">
 					<h4>Feature</h4>
-					<h2>Welcome To <span>Avater</span></h2>
+					<h2>Welcome To <span>CLJ</span></h2>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione aspernatur voluptate <br>pariatur, fugiat animi, inventore atque sed, nam provident impedit quod
 					</p>
